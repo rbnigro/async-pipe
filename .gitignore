@@ -51,3 +51,4 @@ dist/
 coverage/
 angular.json
 package-lock.json
+.editorconfig
