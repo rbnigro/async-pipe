@@ -40,3 +40,14 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+#Others
+node_modules/
+dist/
+.idea/
+.vscode/
+.env
+.DS_Store
+coverage/
+angular.json
+package-lock.json
