@@ -1,0 +1,11 @@
+<h3>Subscribe AsyncPipe</h3>
+
+<input type="number" [(ngModel)]="userId" placeholder="Digite o ID do usuário">
+<button (click)="onBtnClick()">Buscar</button>
+
+<div *ngIf="(user$ | async) as MyUser">
+  <p> Nome: {{ MyUser.name }}</p>
+  <p> Username: {{ MyUser.username }}</p>
+  <p> Email: {{ MyUser.email }}</p>
+</div>
+
